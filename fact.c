@@ -1,9 +1,15 @@
-void fact() {
- int i,fact=1,number;
- printf("Enter a number: ");
-  scanf("%d",&number);
-    for(i=1;i<=number;i++){
-      fact=fact*i;
-  }
-  printf("Factorial of %d is: %d",number,fact \n);
+void fact(){
+
+    int x,fact=1,n;
+
+    printf("Enter a number to find factorial: ");
+
+    scanf("%d",&n);
+
+    for(x=1;x<=n;x++)
+
+        fact=fact*x;
+
+    printf("Factorial of %d is: %d",n,fact);
+
 }
